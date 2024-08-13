@@ -116,9 +116,11 @@
 /* Flower Card styles*/
 
 .all-flower-cards{
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   margin-top: 60px;
+  margin-bottom: 50px;
+  gap: 60px;
 }
 .flower-card, .flower-card-extra-one, .flower-card-extra-two{
   justify-content: center;
@@ -146,4 +148,31 @@
   text-align: center;
   text-decoration: underline;
   font-weight: 800;
+}
+
+/* Flower Delivary styles */
+.flower-delivaries{
+  width: 1440px;
+  height: 320px;
+  background-color: rgba(39, 39, 39, 0.05);
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  
+
+}
+
+.flower-delivary{
+  justify-content: center;
+  align-items: center;
+
+  width: 1090px;
+  height: 147px;
+
+}
+.flower-delivary-header{
+  width: 372px;
+  height: 147px;
+  text-align: center;
 }
