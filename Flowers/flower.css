@@ -102,3 +102,48 @@
     margin-top: 50px;
     
 }
+
+/* Flower-Feature-Header styles*/
+
+.flower-feature-header{
+  margin: 0 auto;
+  text-align: center;
+}
+.flower-feature-title{
+  font-size: 2.2rem;
+}
+
+/* Flower Card styles*/
+
+.all-flower-cards{
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 60px;
+}
+.flower-card, .flower-card-extra-one, .flower-card-extra-two{
+  justify-content: center;
+  align-items: last baseline;
+  width: 434px;
+  height: 528px;
+  background-color: rgba(167, 33, 98, 0.15);
+  border-top-right-radius: 47%;
+  border-top-left-radius: 47%;
+
+}
+.flower-card-extra-one{
+  background-color: rgba(5, 151, 160, 0.15);
+}
+.flower-card-extra-two{
+  background-color: rgba(71, 125, 17, 0.15);
+}
+.flower-card-image{
+  width: 310px;
+  height: 428px;
+  
+}
+.flower-card-title{
+  width: 434px;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 800;
+}
